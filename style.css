@@ -1,0 +1,174 @@
+*, html{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	width: 100%;
+}
+p{
+	font-family: "Open Sans";
+	font-size: 13px;
+	padding: 13px 0px;
+}
+
+.header{
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+	min-height: 100px;
+}
+
+.main-content{
+	width: 100%;
+	background-color: #f5f5f5;
+	min-height: 700px;
+	padding-bottom: 70px;
+	overflow: hidden;
+}
+
+.main{
+	height: 100%;
+	width: 70%;
+	min-height: 600px;
+	float: left;
+}
+.sidebar{
+	height: 100%;
+	width: 30%;
+	min-height: 700px;
+	float: left;
+	background-color: green;
+}
+
+/* page: landing */
+
+/* navigation */
+.logo{
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 15px;
+	font-family: "Lato";
+	line-height: 1em;
+	font-size: 24px;
+	color: #f0679e;
+}
+
+.navigation-container{
+	float: right;
+	margin-top: 67px;
+	margin-right: 60px;
+}
+.primary-navigation{
+	list-style: none;
+}
+.primary-navigation li{
+	float: left;
+}
+.primary-navigation li a{
+	padding: 10px 20px;
+	font-family: "Open Sans";
+	font-weight: 600;
+	background-color: white;
+	color: #2e2e2e;
+	cursor: pointer;
+}
+.primary-navigation li a:hover{
+	background-color: #F07FAC;
+	color: white !important;
+}
+
+/* landing section */
+
+.landing-section{
+	background: url("images/robotic-research.png") fixed 0 0 no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+.cta-holder{
+	position: absolute;
+	height: 100px;
+	right: 0;
+	bottom: 56px;
+	left: 0;
+	padding: 0px 10%;
+}
+.cta{
+	font-family: "Roboto";
+	font-weight: 800;
+	background-color: white;
+	font-size: 13px;
+	color: #2e2e2e;
+	min-height: 50px;
+	text-align: center;
+	border-top: 5px solid #70525E;
+	padding: 10px;
+	padding-top: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+.cta:hover{
+	margin-top: 5px;
+	padding-top: 10px;
+	color: #26A32D;
+	border-top: 10px solid #26A32D;
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+#cta-1:hover{
+	border-top: 10px solid #D75EF8;
+	color: #D75EF8;
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+#cta-3:hover{
+	border-top: 10px solid #D95652;
+	color: #D95652;
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+/* content */
+.home-section{
+	padding: 70px 0px;
+}
+.home-feature{
+	border-right: 1px dashed #f0679e;
+}
+.subtitle{
+	background-color: #f0679e;
+	color: white;
+	padding: 8px 21px;
+	float: left;
+	font-size: 21px;
+	font-family: "Roboto";
+	font-weight: 600;
+}
+
+/* footer */
+.footer{
+	width: 100%;
+	background-color: #F07FAC;
+	overflow: hidden;
+	position: relative;
+	border-top: 5px solid #F2B1CB;
+	min-height: 252px;
+}
+.footer-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 34px;
+	font-family: "Open Sans";
+	font-size: 13px;
+	text-align: center;
+	padding: 8px 0px;
+	color: white;
+	background-color: #70525E;
+}
